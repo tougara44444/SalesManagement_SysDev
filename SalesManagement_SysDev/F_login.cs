@@ -734,5 +734,10 @@ namespace SalesManagement_SysDev
 
             MessageBox.Show("サンプルデータ登録完了");
         }
+
+        private void F_Login_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
