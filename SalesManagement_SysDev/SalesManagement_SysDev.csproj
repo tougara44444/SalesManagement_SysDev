@@ -59,6 +59,12 @@
   <ItemGroup>
     <Compile Include="Entity\M_MajorClassification.cs" />
     <Compile Include="Entity\M_Product.cs" />
+    <Compile Include="F_Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Employee.Designer.cs">
+      <DependentUpon>F_Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,9 @@
     <Compile Include="Entity\T_Warehousing.cs" />
     <Compile Include="Entity\T_WarehousingDetail.cs" />
     <Compile Include="SalesManagement_DevContext.cs" />
+    <EmbeddedResource Include="F_Employee.resx">
+      <DependentUpon>F_Employee.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_login.resx">
       <DependentUpon>F_login.cs</DependentUpon>
     </EmbeddedResource>
