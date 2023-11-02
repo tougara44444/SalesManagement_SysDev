@@ -59,11 +59,23 @@
   <ItemGroup>
     <Compile Include="Entity\M_MajorClassification.cs" />
     <Compile Include="Entity\M_Product.cs" />
+    <Compile Include="F_Arrival.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Arrival.Designer.cs">
+      <DependentUpon>F_Arrival.cs</DependentUpon>
+    </Compile>
     <Compile Include="F_Employee.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="F_Employee.Designer.cs">
       <DependentUpon>F_Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Hattyu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Hattyu.Designer.cs">
+      <DependentUpon>F_Hattyu.cs</DependentUpon>
     </Compile>
     <Compile Include="F_login.cs">
       <SubType>Form</SubType>
@@ -77,6 +89,18 @@
     <Compile Include="Entity\M_Position.cs" />
     <Compile Include="Entity\M_SalesOffice.cs" />
     <Compile Include="Entity\M_SmallClassification.cs" />
+    <Compile Include="F_Uriage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Uriage.Designer.cs">
+      <DependentUpon>F_Uriage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_Warehousing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_Warehousing.Designer.cs">
+      <DependentUpon>F_Warehousing.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entity\T_Arrival.cs" />
@@ -99,11 +123,23 @@
     <Compile Include="Entity\T_Warehousing.cs" />
     <Compile Include="Entity\T_WarehousingDetail.cs" />
     <Compile Include="SalesManagement_DevContext.cs" />
+    <EmbeddedResource Include="F_Arrival.resx">
+      <DependentUpon>F_Arrival.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_Employee.resx">
       <DependentUpon>F_Employee.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="F_Hattyu.resx">
+      <DependentUpon>F_Hattyu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="F_login.resx">
       <DependentUpon>F_login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Uriage.resx">
+      <DependentUpon>F_Uriage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_Warehousing.resx">
+      <DependentUpon>F_Warehousing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
