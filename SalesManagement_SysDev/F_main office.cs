@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace SalesManagement_SysDev
 {
-    public partial class F_employee : Form
+    public partial class F_main_office : Form
     {
-        public F_employee()
+        public F_main_office()
         {
             InitializeComponent();
         }
 
-        private void F_Employee_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
 
         }
