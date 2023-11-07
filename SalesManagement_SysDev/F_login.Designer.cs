@@ -36,7 +36,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
+            this.shainid = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -135,14 +135,14 @@
             this.button1.Text = "本社管理";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label2
+            // shainid
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(540, 324);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(60, 18);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "社員ID";
+            this.shainid.AutoSize = true;
+            this.shainid.Location = new System.Drawing.Point(540, 324);
+            this.shainid.Name = "shainid";
+            this.shainid.Size = new System.Drawing.Size(60, 18);
+            this.shainid.TabIndex = 4;
+            this.shainid.Text = "社員ID";
             // 
             // label3
             // 
@@ -186,7 +186,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.shainid);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
@@ -210,7 +210,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label shainid;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
