@@ -62,7 +62,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.pass = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
@@ -407,14 +407,14 @@
             this.label9.TabIndex = 69;
             this.label9.Text = "電話番号";
             // 
-            // label7
+            // pass
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(893, 282);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(79, 18);
-            this.label7.TabIndex = 68;
-            this.label7.Text = "パスワード";
+            this.pass.AutoSize = true;
+            this.pass.Location = new System.Drawing.Point(893, 282);
+            this.pass.Name = "pass";
+            this.pass.Size = new System.Drawing.Size(79, 18);
+            this.pass.TabIndex = 68;
+            this.pass.Text = "パスワード";
             // 
             // label6
             // 
@@ -477,7 +477,7 @@
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.label7);
+            this.Controls.Add(this.pass);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button10);
@@ -533,7 +533,7 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label pass;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button10;
