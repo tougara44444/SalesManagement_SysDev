@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.lblname = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
@@ -41,8 +43,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -57,7 +57,7 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
-            this.label14 = new System.Windows.Forms.Label();
+            this.shainname = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -88,6 +88,24 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1355, 157);
             this.panel1.TabIndex = 1;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1092, 94);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(52, 18);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "label5";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(1092, 51);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 18);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "label4";
             // 
             // lblname
             // 
@@ -228,24 +246,6 @@
             this.button1.Text = "本社管理";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1092, 94);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 18);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "label5";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1092, 51);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 18);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "label4";
-            // 
             // textBox4
             // 
             this.textBox4.Location = new System.Drawing.Point(988, 378);
@@ -362,14 +362,14 @@
             this.domainUpDown1.TabIndex = 76;
             this.domainUpDown1.Text = "domainUpDown1";
             // 
-            // label14
+            // shainname
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(645, 284);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(62, 18);
-            this.label14.TabIndex = 74;
-            this.label14.Text = "社員名";
+            this.shainname.AutoSize = true;
+            this.shainname.Location = new System.Drawing.Point(645, 284);
+            this.shainname.Name = "shainname";
+            this.shainname.Size = new System.Drawing.Size(62, 18);
+            this.shainname.TabIndex = 74;
+            this.shainname.Text = "社員名";
             // 
             // label12
             // 
@@ -472,7 +472,7 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.domainUpDown1);
-            this.Controls.Add(this.label14);
+            this.Controls.Add(this.shainname);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
@@ -528,7 +528,7 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DomainUpDown domainUpDown1;
-        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label shainname;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
