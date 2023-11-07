@@ -61,7 +61,7 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.tell = new System.Windows.Forms.Label();
             this.pass = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.button12 = new System.Windows.Forms.Button();
@@ -398,14 +398,14 @@
             this.label10.TabIndex = 70;
             this.label10.Text = "営業所ID";
             // 
-            // label9
+            // tell
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(366, 333);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(80, 18);
-            this.label9.TabIndex = 69;
-            this.label9.Text = "電話番号";
+            this.tell.AutoSize = true;
+            this.tell.Location = new System.Drawing.Point(366, 333);
+            this.tell.Name = "tell";
+            this.tell.Size = new System.Drawing.Size(80, 18);
+            this.tell.TabIndex = 69;
+            this.tell.Text = "電話番号";
             // 
             // pass
             // 
@@ -476,7 +476,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.label9);
+            this.Controls.Add(this.tell);
             this.Controls.Add(this.pass);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button12);
@@ -532,7 +532,7 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label tell;
         private System.Windows.Forms.Label pass;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button12;
