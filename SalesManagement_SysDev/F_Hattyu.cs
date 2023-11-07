@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace SalesManagement_SysDev
 {
-    public partial class F_employee : Form
+    public partial class F_Hattyu : Form
     {
-        public F_employee()
+        public F_Hattyu()
         {
             InitializeComponent();
-        }
-
-        private void F_Employee_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }
