@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.Nname = new System.Windows.Forms.Label();
+            this.Iid = new System.Windows.Forms.Label();
             this.lblname = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.name = new System.Windows.Forms.Label();
+            this.ID = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
@@ -75,13 +75,13 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(135)))), ((int)(((byte)(195)))));
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
+            this.panel1.Controls.Add(this.Nname);
+            this.panel1.Controls.Add(this.Iid);
             this.panel1.Controls.Add(this.lblname);
             this.panel1.Controls.Add(this.lblID);
             this.panel1.Controls.Add(this.button6);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.name);
+            this.panel1.Controls.Add(this.ID);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
@@ -89,23 +89,23 @@
             this.panel1.Size = new System.Drawing.Size(1355, 157);
             this.panel1.TabIndex = 2;
             // 
-            // label5
+            // Nname
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(1092, 94);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(52, 18);
-            this.label5.TabIndex = 6;
-            this.label5.Text = "label5";
+            this.Nname.AutoSize = true;
+            this.Nname.Location = new System.Drawing.Point(1092, 94);
+            this.Nname.Name = "Nname";
+            this.Nname.Size = new System.Drawing.Size(52, 18);
+            this.Nname.TabIndex = 6;
+            this.Nname.Text = "label5";
             // 
-            // label4
+            // Iid
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(1092, 51);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 18);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "label4";
+            this.Iid.AutoSize = true;
+            this.Iid.Location = new System.Drawing.Point(1092, 51);
+            this.Iid.Name = "Iid";
+            this.Iid.Size = new System.Drawing.Size(52, 18);
+            this.Iid.TabIndex = 5;
+            this.Iid.Text = "label4";
             // 
             // lblname
             // 
@@ -138,27 +138,27 @@
             this.button6.Text = "ログアウト";
             this.button6.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // name
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("ＭＳ ゴシック", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(996, 94);
-            this.label3.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(44, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "名前";
+            this.name.AutoSize = true;
+            this.name.Font = new System.Drawing.Font("ＭＳ ゴシック", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.name.Location = new System.Drawing.Point(996, 94);
+            this.name.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(44, 18);
+            this.name.TabIndex = 2;
+            this.name.Text = "名前";
             // 
-            // label2
+            // ID
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("ＭＳ ゴシック", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(996, 51);
-            this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "社員ID";
+            this.ID.AutoSize = true;
+            this.ID.Font = new System.Drawing.Font("ＭＳ ゴシック", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.ID.Location = new System.Drawing.Point(996, 51);
+            this.ID.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
+            this.ID.Name = "ID";
+            this.ID.Size = new System.Drawing.Size(62, 18);
+            this.ID.TabIndex = 1;
+            this.ID.Text = "社員ID";
             // 
             // label1
             // 
@@ -494,13 +494,13 @@
         #endregion
 
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label Nname;
+        private System.Windows.Forms.Label Iid;
         private System.Windows.Forms.Label lblname;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label name;
+        private System.Windows.Forms.Label ID;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button5;
